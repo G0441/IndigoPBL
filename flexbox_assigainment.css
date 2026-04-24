@@ -1,0 +1,212 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background: #0f172a; /* dark blue */
+  color: #e2e8f0; /* light text */
+  line-height: 1.6;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: #020617;
+}
+
+nav h2 {
+  color: #22c55e;
+}
+
+nav a {
+  color: #cbd5f5;
+  text-decoration: none;
+  margin-left: 20px;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #22c55e;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 60px;
+  background: linear-gradient(to right, #020617, #0f172a);
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin-bottom: 20px;
+  color: #22c55e;
+}
+
+.hero p {
+  margin-bottom: 20px;
+  color: #cbd5f5;
+}
+
+.hero-img img {
+  width: 420px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  padding: 12px 25px;
+  background: #22c55e;
+  color: #020617;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #16a34a;
+  transform: scale(1.05);
+}
+
+/* ABOUT */
+.about {
+  padding: 60px;
+  text-align: center;
+}
+
+.about h2 {
+  margin-bottom: 20px;
+  color: #22c55e;
+}
+
+/* CARDS */
+.cards {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px;
+  gap: 20px;
+}
+
+.card {
+  background: #1e293b;
+  padding: 25px;
+  width: 22%;
+  border-radius: 15px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  background: #334155;
+}
+
+.card h3 {
+  color: #22c55e;
+  margin-bottom: 10px;
+}
+
+/* SPECS FLEX */
+.specs-container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+/* GALLERY */
+.card img {
+  border-radius: 10px;
+}
+
+/* NEWSLETTER / CONTACT */
+.newsletter {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px;
+  background: #020617;
+}
+
+.news-text {
+  width: 50%;
+}
+
+.news-text h2 {
+  color: #22c55e;
+}
+
+.news-form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.news-form input {
+  margin-bottom: 15px;
+  padding: 12px;
+  border-radius: 25px;
+  border: none;
+  background: #1e293b;
+  color: white;
+}
+
+.news-form button {
+  padding: 12px;
+  border: none;
+  background: #22c55e;
+  color: #020617;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.news-form button:hover {
+  background: #16a34a;
+}
+
+/* CTA */
+.cta {
+  text-align: center;
+  padding: 80px;
+  background: linear-gradient(to right, #020617, #0f172a);
+}
+
+.cta h2 {
+  margin-bottom: 20px;
+}
+
+.gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.gallery img {
+  width: calc(33% - 20px);
+  border-radius: 10px;
+}
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: auto;
+}
+.card h3 {
+  margin-top: 15px;
+}
